@@ -22,10 +22,10 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
+	"github.com/streamnative/pulsar-admin-go/pkg/auth"
+	"github.com/streamnative/pulsar-admin-go/pkg/pulsar"
+	pulsarctlcommon "github.com/streamnative/pulsar-admin-go/pkg/pulsar/common"
 	"github.com/streamnative/pulsar-resources-operator/api/v1alpha1"
-	"github.com/streamnative/pulsarctl/pkg/auth"
-	"github.com/streamnative/pulsarctl/pkg/pulsar"
-	pulsarctlcommon "github.com/streamnative/pulsarctl/pkg/pulsar/common"
 )
 
 // TenantParams indicates the parameters for creating a tenant

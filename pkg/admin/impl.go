@@ -22,10 +22,10 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/utils/pointer"
 
+	"github.com/streamnative/pulsar-admin-go/pkg/pulsar"
+	"github.com/streamnative/pulsar-admin-go/pkg/pulsar/common"
+	pulsarutils "github.com/streamnative/pulsar-admin-go/pkg/pulsar/utils"
 	"github.com/streamnative/pulsar-resources-operator/api/v1alpha1"
-	"github.com/streamnative/pulsarctl/pkg/pulsar"
-	"github.com/streamnative/pulsarctl/pkg/pulsar/common"
-	pulsarutils "github.com/streamnative/pulsarctl/pkg/pulsar/utils"
 )
 
 // PulsarAdminClient define the client to call pulsar

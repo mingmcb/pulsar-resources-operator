@@ -15,7 +15,7 @@
 package admin
 
 import (
-	pulsarcli "github.com/streamnative/pulsarctl/pkg/cli"
+	pulsarcli "github.com/streamnative/pulsar-admin-go/pkg/cli"
 )
 
 // Reason indicates the status code
